@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTml Forms</title>
+</head>
+    <h1>REGISTRATION FORM</h1>
+    <h2>Please fill the form.</h2>
+    <form action="#action" method="post">
+        <fieldset>
+            <label for="first">First Name: <input type="text"name="first name" id="first" required ></label>
+            <label for="last">First Name: <input type="text"name="last name" id="last" required ></label>
+            <label for="email">First Name: <input type="email"name="email" id="email" required ></label>
+            <label for="password">First Name: <input type="password"name="first name" id="password" required ></label>
+
+       </fieldset>
+       <fieldset>
+            <h2>Sports you like</h2>
+        <label for="baseball"><input type="radio"name="baseball" id="baseball" class="inline">BASEBALL</label>
+        <label for="icehockey"><input type="radio"name="icehockey" id="first" class="inline">ICE HOCKEY</label>
+        <label for="golf"><input type="radio"name="golf" id="golf" class="inline">GOLF</label>
+        <label for="checkbox"><input type="checkbox"name="checkbox" id="checkbox"class="inline" required >I accept the <a href="#terms and conditions">terms and conditions</a></label>
+
+       </fieldset>
+       <fieldset>
+        <label for="file">Upload your Resume: <input type="file" id="file" name="file"></label>
+        <label for="age">Type your age in years.<input type="number" id="age" name="age"></label>
+        <label for=" select">How do you know about us :
+            <select name="find" id="find">
+                <option value="youtube">youtube</option>
+                <option value="website">website</option>
+                <option value="instagram">instagram</option>
+                <option value="twitter">twitter</option>
+                <option value="linkedin">linkedin</option>
+            </select>
+        </label>
+        <label for="bio"> PROVIDE A BIO: <textarea type="text" placeholder=" I would like to say" name="bio" rows="3" cols="30" ></textarea>
+        </label>
+       </fieldset>
+
+       <input type="submit" value="submit">
+    </form>
+<body>
+    
+</body>
+</html>
